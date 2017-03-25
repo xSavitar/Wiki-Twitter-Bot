@@ -14,15 +14,25 @@ A bot that sends a search query to Twitter API, returns a result that matches th
   brew install npm
   ```
 
-  Will add for other systems later here.
-
 3. Change directory to the project and install dependencies for the project:
 
   ```shell
   npm install
   ```
 
-4. Run the bot using:
+4. [Get credentials for your bot](https://dev.twitter.com/) and complete the `.env`
+
+* When logged-in on the Twitter's developer site, check the link on the top menu `My apps` (and it will take you to this site: https://apps.twitter.com/) or go straight away to type: https://apps.twitter.com/ on your browser.
+
+* On the top-right, there is a button saying `Create New App`, click on it and follow the steps to fill in the form fields.
+
+* Click the `Create your Twitter Application` button when you finish the immediate above step.
+
+* Once the application is created, under the `Details` section, you will find the credentials to fill into your `.env` file and additionally, under the `Keys and Access tokens`, you will find all the keys and access tokens needed in the `.env` file.
+
+* When all these configs are done, your app can then connect to Twitter successfully and perform its various functions.
+
+5. Run the bot using:
 
   ```shell
   npm start
@@ -32,4 +42,4 @@ A bot that sends a search query to Twitter API, returns a result that matches th
   node server.js
   ```
 
-5. You are almost done :+1:
+6. You are almost done, deploy the app to run as a web service and there you go :+1:
