@@ -17,10 +17,10 @@ var TWITTER_SEARCH_PHRASE = '#wikimedia OR #mediawiki OR @wikimedia OR @mediawik
 var Twit = require('twit');
 
 var Bot = new Twit({
-	consumer_key: TWITTER_CONSUMER_KEY,
-	consumer_secret: TWITTER_CONSUMER_SECRET,
-	access_token: TWITTER_ACCESS_TOKEN, 
-	access_token_secret: TWITTER_ACCESS_TOKEN_SECRET
+	consumer_key: process.env.TWITTER_CONSUMER_KEY,
+	consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
+	access_token: process.env.TWITTER_ACCESS_TOKEN, 
+	access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 });
 
 console.log('The bot process has started running...');
