@@ -5,11 +5,7 @@
  * License : https://github.com/ch3nkula/Twitter-Bot/blob/master/LICENSE
  */
 
-/* Configure the Twitter API */
-var TWITTER_CONSUMER_KEY = 'yFJec6Sw2INUUIii02aM78Svw';
-var TWITTER_CONSUMER_SECRET = 'KMHX9diFRaxke7Ucsmg6tYMrnpzhtY3c4PeWDB0fHLxJBfC4pu';
-var TWITTER_ACCESS_TOKEN = '984219792-jpDD12fYjYQiazGow90GQ7CIgSaod8iMbNq9EP4d';
-var TWITTER_ACCESS_TOKEN_SECRET = 'sFS1ajLURKmR43KIC1IrHswyJrPwejRiHMshy5djlK0NV';
+ require('dotenv').config()
 
 /* Set Twitter search phrase */
 var TWITTER_SEARCH_PHRASE = '#wikimedia OR #mediawiki OR @wikimedia OR @mediawiki';
