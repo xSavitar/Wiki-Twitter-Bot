@@ -1,5 +1,5 @@
 /*!
- * Bot.js : A Twitter bot that can retweet in response to the tweets matching particluar keyword
+ * A Twitter bot that can retweet in response to the tweets matching particluar keyword
  * Version 1.0.0
  * Created by Alangi Derick inspired by Debashis Barman
  * License : https://github.com/ch3nkula/Twitter-Bot/blob/master/LICENSE
@@ -27,14 +27,14 @@ console.log('The bot process has started running...');
 
 /* BotInit() : To initiate the bot */
 function BotInit() {
-	Bot.post('statuses/retweet/:id', { id: '803640638939885568' }, BotInitiated);
+	Bot.post('statuses/retweet/:id', { id: '844970233161039874' }, BotInitiated);
 	
 	function BotInitiated (error, data, response) {
 		if (error) {
 			console.log('Bot could not be initiated, : ' + error);
 		}
 		else {
-  			console.log('Bot initiated : 803640638939885568');
+  			console.log('Bot initiated : 844970233161039874');
 		}
 	}
 	
