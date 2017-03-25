@@ -1,5 +1,5 @@
 # Wiki-Retweet-Bot
-A bot that sends a search query to Twitter API, returns a result that matches the search and retweets the most recent tweet returned. The keyword(s) used in the bot so far are: `#wikimedia`, `#mediawiki`, etc...
+A bot that sends a search query to Twitter API, returns a result that matches the search; likes and retweets the most recent tweet returned. The keyword(s) used in the bot so far are: `#wikimedia`, `#mediawiki`, etc...
 
 
 ## How to try out the bot
