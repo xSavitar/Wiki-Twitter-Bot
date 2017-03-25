@@ -12,7 +12,7 @@ var TWITTER_ACCESS_TOKEN = '984219792-jpDD12fYjYQiazGow90GQ7CIgSaod8iMbNq9EP4d';
 var TWITTER_ACCESS_TOKEN_SECRET = 'sFS1ajLURKmR43KIC1IrHswyJrPwejRiHMshy5djlK0NV';
 
 /* Set Twitter search phrase */
-var TWITTER_SEARCH_PHRASE = '#wikimedia OR #wikipedia';
+var TWITTER_SEARCH_PHRASE = '#wikimedia OR #mediawiki OR @wikimedia OR @mediawiki';
 
 var Twit = require('twit');
 

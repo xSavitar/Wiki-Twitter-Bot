@@ -1,7 +1,7 @@
 {
-  "name": "Twitter-Bot",
+  "name": "Wiki-Retweet-Bot",
   "version": "1.0.0",
-  "description": "A Twitter bot that can retweet in response to the tweets matching some particluar keyword(s)",
+  "description": "A Twitter bot that can retweet in response to the tweets matching some particluar keyword(s). The keywords that will be used are wikimedia related",
   "main": "bot.js",
   "dependencies": {
     "twit": "^2.1.1"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ch3nkula/Twitter-Bot.git"
+    "url": "https://github.com/ch3nkula/Wiki-Retweet-Bot.git"
   },
   "keywords": [
     "wikimedia",
@@ -24,6 +24,6 @@
   "inspired": "Debashis Berman",
   "license": "https://creativecommons.org/licenses/by-sa/3.0/",
   "issues": {
-    "url": "https://github.com/ch3nkula/Twitter-Bot/issues"
+    "url": "https://github.com/ch3nkula/Wiki-Retweet-Bot/issues"
   }
 }
