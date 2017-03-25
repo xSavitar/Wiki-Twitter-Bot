@@ -27,14 +27,14 @@ console.log('The bot process has started running...');
 
 /* BotInit() : To initiate the bot */
 function BotInit() {
-	Bot.post('statuses/retweet/:id', { id: '669520341815836672' }, BotInitiated);
+	Bot.post('statuses/retweet/:id', { id: '803640638939885568' }, BotInitiated);
 	
 	function BotInitiated (error, data, response) {
 		if (error) {
 			console.log('Bot could not be initiated, : ' + error);
 		}
 		else {
-  			console.log('Bot initiated : 669520341815836672');
+  			console.log('Bot initiated : 803640638939885568');
 		}
 	}
 	
