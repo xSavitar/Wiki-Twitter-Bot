@@ -28,6 +28,7 @@ console.log('The bot process has started running...');
 /* BotInit() : To initiate the bot */
 function BotInit() {
 	Bot.post('statuses/retweet/:id', { id: '844970233161039874' }, BotInitiated);
+	Bot.post('favorites/create', { id: '844970233161039874'}, BotInitiated);
 	
 	function BotInitiated (error, data, response) {
 		if (error) {
@@ -38,6 +39,7 @@ function BotInit() {
 		}
 	}
 	
+	BotLike()
 	BotRetweet();
 }
 
