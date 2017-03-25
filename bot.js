@@ -23,7 +23,7 @@ var Bot = new Twit({
 	access_token_secret: TWITTER_ACCESS_TOKEN_SECRET
 });
 
-console.log('The bot is running...');
+console.log('The bot process has started running...');
 
 /* BotInit() : To initiate the bot */
 function BotInit() {
