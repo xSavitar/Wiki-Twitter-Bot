@@ -29,7 +29,7 @@ A bot that sends a search query to Twitter API, returns a result that matches th
   ```
   or 
   ```shell
-  node bot.js
+  node server.js
   ```
 
 5. You are almost done :+1:
