@@ -73,8 +73,44 @@ function BotRetweet() {
 		}
 	}
 	
-	/* Set an interval of 30 minutes (in microsecondes) */
+	/* Set an interval of 30 minutes (in microseconds) */
 	setInterval(BotRetweet, 30*60*1000);
+}
+
+/* BotLike() : To like the matching recent tweet */
+function BotLike() {
+
+	var query = {
+		q: TWITTER_SEARCH_PHRASE,
+		result_type: "recent"
+	}
+
+	Bot.get('search/tweets', query, BotGotLatestTweet);
+
+	function BotGotLatestTweet (error, data, response) {
+		if (error){
+			console.log('Bot cound not find latest tweet, : ' + error);
+		}
+		else {
+			var id = {
+				id : data.statuses[0].id_str
+			}
+
+			Bot.post('favorites/create', id, BotLiked);
+
+			function BotLiked(error, response) {
+				if (error){
+					console.log('Bot could not like this tweet, : ' + error);
+				}
+				else {
+					console.log('Bot liked this tweet : ' + id.id);
+				}
+			}
+		}
+	}
+
+	/* Set an interval of 30 mins (in microseconds) */
+	setInterval(BotLike, 30+60+1000);
 }
 
 /* Initiate the Bot */
