@@ -8,7 +8,7 @@
  require('dotenv').config()
 
 /* Set Twitter search phrase */
-var TWITTER_SEARCH_PHRASE = '#wikimedia OR #mediawiki OR @wikimedia OR @mediawiki OR #wmcon \ 
+var TWITTER_SEARCH_PHRASE = '#wikimedia OR #mediawiki OR @wikimedia OR @mediawiki OR #wmcon \
 							OR @wikidata OR #wikidata OR #wikimedia2030 OR #wmhack OR #Wikimania2017 \
 							OR #Wikimania';
 
