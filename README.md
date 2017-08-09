@@ -1,4 +1,4 @@
-# Wiki-Retweet-Bot
+# Wiki-Twitter-Bot
 A bot that sends a search query to Twitter API, returns a result that matches the search; likes and retweets the most recent tweet returned. The keyword(s) used in the bot so far are: `#wikimedia`, `#mediawiki`, etc...
 
 
@@ -6,7 +6,7 @@ A bot that sends a search query to Twitter API, returns a result that matches th
 
 1. Clone project:
   ```shell
-  git clone https://github.com/ch3nkula/Wiki-Retweet-Bot.git
+  git clone https://github.com/ch3nkula/Wiki-Twit-Bot.git
   ```
 
 2. Install Need Package Manager/Management (NPM) on Mac OS X:
