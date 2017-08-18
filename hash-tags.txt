@@ -1,1 +1,1 @@
-'#wikimedia OR #mediawiki OR @wikimedia OR @mediawiki OR #wmcon OR @wikidata OR #wikidata OR #wikimedia2030 OR #wmhack OR #Wikimania2017 OR #Wikimania OR #wikimania2017'
+'#wikimedia OR #mediawiki OR @wikimedia OR @mediawiki OR #wmcon OR @wikidata OR #wikidata OR #wikimedia2030 OR #wmhack OR #Wikimania2017 OR #Wikimania OR #wikimania2017 OR #DivCon17'
