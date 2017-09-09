@@ -1,6 +1,6 @@
 /*!
  * A Twitter bot that can retweet in response to the tweets matching particluar keyword
- * Version 1.0.0
+ * Version 1.0.1
  * Created by Alangi Derick inspired by Debashis Barman
  * License : https://github.com/ch3nkula/Twitter-Bot/blob/master/LICENSE
  */
@@ -10,7 +10,7 @@
 /* Read the file and get the hash-tags */
 var fs = require('fs');
  
-var contents = fs.readFileSync('hash-tags.txt', 'utf8');
+var contents = fs.readFileSync('hashtag-fs.txt', 'utf8');
 console.log(contents);
 
 /* Set Twitter search phrase */
